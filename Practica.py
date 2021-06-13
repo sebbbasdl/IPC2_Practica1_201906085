@@ -82,8 +82,7 @@ while var == True:
         contX+=1
 
 
-        print(listaTemp)
-        print(listaV)
+
 
 
 
@@ -124,7 +123,7 @@ while var == True:
 
 
     elif opcion==3:
-        print(listaV)
+
         listaC=[]
         tempG="digraph L{\n\n\tnode [shape=record fontname=Arial];\n\n\t"
         contador1=0
@@ -140,7 +139,7 @@ while var == True:
         contador2=0
         for name in listaC:
             contador2+=1
-            print("contador2:"+str(contador2))
+
 
             if contador2==fin:
                 tempG+=name
@@ -148,9 +147,7 @@ while var == True:
                 tempG+= name+"->"
         tempG+="\n\n}"
 
-        print(listaC)
 
-        print(fin)
         print("Visualizar")
         #tempG = "digraph L{\n\n\tnode [shape=record fontname=Arial];\n\n\ta"+contador1+"[label=\"Nombre: "+nombre+"\lApellido:"+apellido+"\lTelefono: "+telefono+"\l\"]\n\n\tb  [label=\"one\ltwo three\lfour five six seven\l\"]\n\n\ta -> b\n\n}"
 
